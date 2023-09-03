@@ -10,7 +10,7 @@ app.use(cors());
 // Create Real Time Communication=>
 
 const socketIO=require("socket.io")(http,{
-    cors:{origin:"http://localhost:3000"}
+    cors:{origin:"http://localhost:3001"}
 });
 
 let users=[];
